@@ -12,7 +12,13 @@
 		<%= f.input :title, label: 'What is this image about?', placeholder: 'Drunken Monkey, Racy Rat, Enormous Elephant' %>
 		<br/>
 		<%= f.input :description, label: 'Tell me more', placeholder: 'This monkey drank a beer and stumbled through the jungle' %>
+
 		<br/>
+
+		<%= f.input :image %>
+
+		<br/>
+
 		<%= f.button :submit, :class=> 'btn btn-warning' %>
 
 	<% end %>
